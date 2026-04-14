@@ -9,7 +9,7 @@ const Baanner = () => {
                 relationships that matter most.</p>
             <button className='btn bg-[#244d3f] text-white'> + Add a Friend</button>
           </div>
-          <div className='container mx-auto grid grid-cols-2 px-4 md:grid-cols-3lg:grid-cols-4 gap-4 mt-20'>
+          <div className='container mx-auto grid grid-cols-2 px-4 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-20'>
         
             <div className='shadow rounded-2xl bg-base-200'>
                 <div className='text-center m-10'>
@@ -19,20 +19,20 @@ const Baanner = () => {
             </div>
             <div className='shadow rounded-2xl bg-base-200' >
                 <div className='text-center m-10'>
-                    <h1 className='text-3xl'>10</h1>
-                <p className='text-[#7c899d]'>Total Friends</p>
+                    <h1 className='text-3xl'>3</h1>
+                <p className='text-[#7c899d]'>On Track</p>
                 </div>
             </div>
             <div className='shadow rounded-2xl bg-base-200'>
                 <div className='text-center m-10'>
-                    <h1 className='text-3xl'>10</h1>
-                <p className='text-[#7c899d]'>Total Friends</p>
+                    <h1 className='text-3xl'>6</h1>
+                <p className='text-[#7c899d]'>Need Attention</p>
                 </div>
             </div>
             <div className='shadow rounded-2xl bg-base-200'>
                 <div className='text-center m-10'>
-                    <h1 className='text-3xl'>10</h1>
-                <p className='text-[#7c899d]'>Total Friends</p>
+                    <h1 className='text-3xl'>12</h1>
+                <p className='text-[#7c899d]'>Interactions This Month</p>
                 </div>
             </div>
           </div>

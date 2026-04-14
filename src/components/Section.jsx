@@ -5,7 +5,7 @@ import Friends from '../../public/data.json'
 
 
 
-const Section = async () => {
+const Section = () => {
      
     return (
         <div className='container mx-auto '>

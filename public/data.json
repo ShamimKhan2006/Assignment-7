@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "John Doe",
-    "picture": "/img/download (1).jpg",
+    "picture":"/img/face.avif",
     "email": "john@example.com",
     "days_since_contact": 12,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Ahmed",
-    "picture": "/public/img/download (2).jpg",
+    "picture": "/img/images (6).jpg",
     "email": "sarah.ahmed@mail.com",
     "days_since_contact": 5,
     "status": "active",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Rakib Hasan",
-    "picture": "/public/img/img/download.jpg",
+    "picture": "/img/cycle.avif",
     "email": "rakib.hasan@mail.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Emily Carter",
-    "picture": "/public/img/download (4).jpg",
+    "picture": "/img/download (4).jpg",
     "email": "emily.carter@mail.com",
     "days_since_contact": 2,
     "status": "active",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Tanvir Hossain",
-    "picture": "/public/img/img/images (1).jpg",
+    "picture": "/img/images (1).jpg",
     "email": "tanvir@mail.com",
     "days_since_contact": 30,
     "status": "overdue",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Nusrat Jahan",
-    "picture": "/public/img/download (1).jpg",
+    "picture": "/img/chul.avif",
     "email": "nusrat@mail.com",
     "days_since_contact": 1,
     "status": "active",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "David Miller",
-    "picture": "/public/img/images (2).jpg",
+    "picture": "/img/iphone.jpg",
     "email": "david@mail.com",
     "days_since_contact": 9,
     "status": "active",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Ayesha Rahman",
-    "picture": "/public/img/download (2).jpg",
+    "picture": "/img/sm.avif",
     "email": "ayesha@mail.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Imran Hossain",
-    "picture": "/public/img/download (1).jpg",
+    "picture": "/img/tt.jpg",
     "email": "imran@mail.com",
     "days_since_contact": 7,
     "status": "active",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Maya Singh",
-    "picture": "/public/img/download (3).jpg",
+    "picture": "/img/download (3).jpg",
     "email": "maya@mail.com",
     "days_since_contact": 14,
     "status": "overdue",
@@ -122,7 +122,7 @@
   {
     "id": 11,
     "name": "Omar Faruk",
-    "picture": "/public/img/images.jpg",
+    "picture": "/img/images.jpg",
     "email": "omar@mail.com",
     "days_since_contact": 3,
     "status": "active",
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "name": "Lina Chowdhury",
-    "picture": "/public/img/download (4).jpg",
+    "picture": "/img/images (4).jpg",
     "email": "lina@mail.com",
     "days_since_contact": 22,
     "status": "overdue",

@@ -5,9 +5,9 @@ const Card = ({friend}) => {
     const {picture,name,days_since_contact,tags,status} =friend
     return (
         <div>
-            <div className='shadow p-10  rounded-lg gap-4  bg-base-200'>
-                <div className='flex justify-center items-center'>
-            <Image src={picture} alt='picture' width={80} height={80}></Image>
+            <div className='shadow p-5  rounded-lg gap-4  bg-base-200'>
+                <div className='flex justify-center items-center '>
+            <Image className='rounded-full' src={picture} alt='picture' width={80} height={80}></Image>
             </div>
                <div className='text-center'>
                  <h1 className='font-bold text-2xl'>{name}</h1>
