@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "John Doe",
-    "picture": "/public/img/download (1).jpg",
+    "picture": "/img/download (1).jpg",
     "email": "john@example.com",
     "days_since_contact": 12,
     "status": "overdue",

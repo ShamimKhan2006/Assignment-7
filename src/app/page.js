@@ -1,9 +1,10 @@
+import Baanner from "@/components/Baanner";
 
 
 export default function Home() {
   return (
     <div>
-      <h1>hellow</h1>
+     <Baanner></Baanner>
     </div>
   );
 }

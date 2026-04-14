@@ -9,7 +9,7 @@ const Baanner = () => {
                 relationships that matter most.</p>
             <button className='btn bg-[#244d3f] text-white'> + Add a Friend</button>
           </div>
-          <div className='container mx-auto grid grid-cols-4 gap-4 mt-20'>
+          <div className='container mx-auto grid grid-cols-2 px-4 md:grid-cols-3lg:grid-cols-4 gap-4 mt-20'>
         
             <div className='shadow rounded-2xl bg-base-200'>
                 <div className='text-center m-10'>
