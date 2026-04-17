@@ -1,9 +1,14 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navber from "@/components/Navber";
-import Baanner from "@/components/Baanner";
-import Section from "@/components/Section";
-import Footer from "@/components/Footer";
+import { ToastContainer } from "react-toastify";
+import Provider from "@/components/Provider";
+import { Geistist } from 'next/font/google'
+import Cursor from "@/components/Cursor";
+
+const geist = Geist({
+  subsets: ['latin'],
+})
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,13 +27,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en" data-theme="light"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    <html 
+      lang="en" data-theme='light'
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased ${geist.className}`}
     >
       <body className="min-h-full flex flex-col">
         <Navber></Navber>
+          <ToastContainer />
+       <Provider>
+        <Cursor></Cursor>
         {children}
+       </Provider>
       
         
         </body>

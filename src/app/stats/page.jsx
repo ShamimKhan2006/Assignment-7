@@ -1,9 +1,10 @@
+import PieChartWithPaddingAngle from '@/components/PieChartWithPaddingAngle';
 import React from 'react';
 
 const StatsPage = () => {
     return (
         <div>
-            stssssssssssss
+            <PieChartWithPaddingAngle />
         </div>
     );
 };

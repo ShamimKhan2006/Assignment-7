@@ -5,7 +5,9 @@ import Friends from '../../public/data.json'
 
 
 
+
 const Section = () => {
+    
      
     return (
         <div className='container mx-auto '>
