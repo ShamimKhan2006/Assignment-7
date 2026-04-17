@@ -28,6 +28,7 @@ const FriendsDetails = async({ params }) => {
     days_since_contact,
     bio,
     goal,
+    email,
     next_due_date,
   } = singleFriend;
 
@@ -72,6 +73,7 @@ const FriendsDetails = async({ params }) => {
                   {status}
                 </span>
                 <p className="py-5 text-gray-400 font-semibold">{bio}</p>
+                <p className="font-semibold text-gray-400">{email}</p>
               </div>
             </div>
           </div>

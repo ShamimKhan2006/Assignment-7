@@ -19,7 +19,7 @@ export default function PieChartWithPaddingAngle({ isAnimationActive = true }) {
 
   <Function></Function>
   return (
-    <div className="w-full h-[400px] flex justify-center items-center">
+    <div className="w-full h-100 flex justify-center items-center">
       <ResponsiveContainer width="100%" height="100%">
         <PieChart>
           <Pie

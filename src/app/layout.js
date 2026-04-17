@@ -3,12 +3,12 @@ import "./globals.css";
 import Navber from "@/components/Navber";
 import { ToastContainer } from "react-toastify";
 import Provider from "@/components/Provider";
-import { Geistist } from 'next/font/google'
-import Cursor from "@/components/Cursor";
+import { Geistist } from "next/font/google";
+
 
 const geist = Geist({
-  subsets: ['latin'],
-})
+  subsets: ["latin"],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,20 +27,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html 
-      lang="en" data-theme='light'
+    <html
+      lang="en"
+      data-theme="light"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased ${geist.className}`}
     >
       <body className="min-h-full flex flex-col">
         <Navber></Navber>
-          <ToastContainer />
-       <Provider>
-        <Cursor></Cursor>
-        {children}
-       </Provider>
-      
-        
-        </body>
+        <ToastContainer />
+        <Provider>
+   
+          {children}
+        </Provider>
+      </body>
     </html>
   );
 }
